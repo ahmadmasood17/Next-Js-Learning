@@ -3,7 +3,7 @@ import Link from "next/link"
 
 
 
-export const metadata : Metadata = {
+export const metadata: Metadata = {
     title: "Metadata Example Page",
     description: "This is an example page to demonstrate metadata in Next.js",
 }
@@ -14,16 +14,14 @@ const MetaData = () => {
         id: 1,
         title: "Example Title",
         description: "This is an example description for metadata.",
-        keywords: ["example", "metadata", "nextjs"],
+        keywords: ["example", "metadata", "nextjs", "js"],
     }, {
         id: 2,
         title: "Example Title",
         description: "This is an example description for metadata.",
         keywords: ["example", "metadata", "nextjs"],
-    },]
-
-
-
+    },
+    ]
 
     return (
         <>
